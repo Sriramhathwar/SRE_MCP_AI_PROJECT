@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+env/
+mcp/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+mcp/
+venv/
+
+# Models
+models/
+*.gguf
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# FAISS index (optional)
+*.index
+

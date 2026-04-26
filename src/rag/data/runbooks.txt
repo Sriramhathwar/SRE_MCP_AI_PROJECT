@@ -1,0 +1,8 @@
+Pod CrashLoopBackOff:
+- Check logs
+- Check memory usage
+- Restart pod
+
+High CPU:
+- Check top pods
+- Scale deployment
