@@ -37,3 +37,7 @@ function addMessage(text, type) {
 
   chat.appendChild(div);
 }
+function scrollBottom() {
+    const chat = document.getElementById("chat");
+    chat.scrollTop = chat.scrollHeight;
+}
