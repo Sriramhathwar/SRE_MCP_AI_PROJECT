@@ -9,4 +9,5 @@ llm = Llama(
 
 def ask_llm(prompt, max_tokens=200):
     output = llm(prompt, max_tokens=max_tokens, temperature=0.2, stop=["</s>", "[/INST]"])
+    print("output: ", output)
     return output["choices"][0]["text"].strip()
